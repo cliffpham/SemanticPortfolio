@@ -5,18 +5,86 @@ body {
 
 }
 
-#placement {
-    font-size: 85px;
+h1 {
+    font-family: 'Questrial', sans-serif;
+}
+
+.text-items {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.ui.container {
+    padding-left: none;
+}
+
+.ui.vertical.menu {
+    width: 7em;
+    background-color: #212531
+}
+
+.ui.header {
+    margin-left: 140px;
 }
 
 
+#placement {
+    margin-left:133px;
+    padding-top: 20px;
+    font-size: 100px;
+    font-family: 'Questrial', sans-serif;
+}
+
+#placement2 {
+    margin-left:133px;
+    font-size: 60px;
+    font-family: 'Questrial', sans-serif;
+}
+
+#nutgraf {
+    background-color: 	#d7f1ff;
+
+  }
+
+#introduction {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-family: 'Questrial', sans-serif;
+}
 
 
 #test {
     /* background: linear-gradient(rgba(20,20,20, .6), rgba(20,20,20, .6)), url(backgroundtemp.jpg); */
-    background-size: cover;
-    background-position: center;
-    background-color: #1c374f;
+    background-color: #758eaa;
+}
+
+#test2 {
+    /* background: linear-gradient(to left top, #212531 60%, #758eaa 50%); */
+    background: linear-gradient(to right top, #758eaa 50%, #212531 50%);
+}
+
+#margin-test {
+    margin-left:133px;
+}
+
+#test3 {
+    background: linear-gradient(to right bottom, #758eaa 50%, #212531 50%);
+    
+}
+
+.ui.segment {
+    margin: 0;
+    padding:0;
+}
+
+/* #font-test {
+    font-family: 'Catamaran', sans-serif;
+    margin:0;
+} */
+
+h3.ui.header.right.floated {
+ 
 }
 
 
@@ -29,6 +97,13 @@ body {
 
 h3.ui.header.center.aligned {
     padding-bottom: 1em;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#header-test {
+
+    font-size: 60px;
+    font-family: 'Questrial', sans-serif;
 }
 
 .ui.vertical.stripe.segment {
@@ -46,41 +121,34 @@ h3.ui.header.center.aligned {
 
 #mastHead {
     margin-bottom: 3em;
+    margin-left: 0;
+    
 }
 
 
-#placement {
-    margin-top: 2rem;
-}
 
-
-
-  #introduction {
-    background-color: 	#d7f1ff;
-    padding: 20px 0 20px 0px;
-  }
 
 
 
   #fheader {
     font-size: 60px;
     padding-top: 0.5em;
+    font-family: 'Questrial', sans-serif;
   }
 
   #project {
+      font-size: 35px;
+      font-family: 'Questrial', sans-serif;
       float: right;
       margin-top: 1em;
       margin-left: 4em;
       padding-left: 5em;
+ 
   }
 
   #firstButton {
       margin-bottom: 1em;
       margin-right: 4em;
-  }
-
-  #title2 {
-      padding-top: 1em;
   }
 
   #test3 {
@@ -98,9 +166,6 @@ h3.ui.header.center.aligned {
     margin-bottom: 4em; 
   }
 
-  #title2 {
-      font-size: 60px;
-  }
 
   .ui.vertical.stripe.segment {
       border: none;
@@ -109,9 +174,4 @@ h3.ui.header.center.aligned {
   .ui.divider:not(.vertical):not(.horizontal) {
       border-bottom:none;
       border-top: none;
-  }
-
-  #project1 {
-      color: white;
-      font-size: 20px;
   }
