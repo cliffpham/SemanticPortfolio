@@ -36,11 +36,11 @@ h3.ui.header.center.aligned {
 }
 
 #info1 {
-    background: linear-gradient(to right bottom, #758eaa 39.9%, #212531 40%);
+    background: linear-gradient(to right bottom, #758eaa 39.95%, #212531 40%);
 }
 
 #info2 {
-    background: linear-gradient(to right top, #758eaa 49.8%, #212531 50%);
+    background: linear-gradient(to right top, #758eaa 49.9%, #212531 50%);
     /* background: #212531; */
 }
 
@@ -65,7 +65,6 @@ h3.ui.header.center.aligned {
   #fheader {
     font-size: 60px;
     padding-top: 0.5em;
-    -webkit-transform: rotate(-10deg);
   }
 
   #project {
@@ -78,6 +77,10 @@ h3.ui.header.center.aligned {
   #firstButton {
       margin-bottom: 1em;
       margin-right: 4em;
+  }
+
+  #title2 {
+      padding-top: 1em;
   }
 
   #test3 {
@@ -101,4 +104,14 @@ h3.ui.header.center.aligned {
 
   .ui.vertical.stripe.segment {
       border: none;
+  }
+
+  .ui.divider:not(.vertical):not(.horizontal) {
+      border-bottom:none;
+      border-top: none;
+  }
+
+  #project1 {
+      color: white;
+      font-size: 20px;
   }
